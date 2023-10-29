@@ -1,0 +1,132 @@
+*{
+    box-sizing: border-box;
+}
+.listing{
+    width: 70%;
+    background-color:#141414;
+    height: 1000px;
+    z-index: 5;
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    border-radius: 15px;
+    margin-bottom: 100px;
+    border: 5px solid #ADC8D9;
+}
+
+body{
+    background-color: #2e2e2e;
+}
+
+.titling{
+    font-size: 50px;
+    font-family: 'JetBrains Mono', monospace;
+    color:#ADD9D2;
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+    
+}
+
+
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li{
+    color:white;
+    font-family: 'JetBrains Mono', monospace;
+    cursor: pointer;
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    font-size: 18px;
+    transition: 0.2s;
+    background-color: #3B3B3B;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #636363;
+}
+
+h2{
+    color:white;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 35px;
+    margin-top: 0;
+    margin-left: auto;
+    margin-right:auto;
+    position: relative;
+    text-align: center;
+}
+
+ul li:hover{
+    background: #2c2c2c;
+}
+
+#manage{
+    width:100%;
+    background-color:#3B3B3B;
+    z-index: 6;
+    position: relative;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+    padding: 0px 5px;
+}
+
+a{
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 500;
+    color:white;
+    font-size: 15px;
+}
+
+#specs{
+    width:50%;
+    display:table-cell;
+    height: 100%;
+    padding: 10px;
+    vertical-align: top;
+}
+
+.totali{
+
+}
+#specs a{
+    
+}
+
+#newint{
+    width:50%;
+    display:table-cell;
+    height: 100%;
+    padding: 10px;
+}
+
+#newint input{
+    margin: 0;
+    border: none;
+    border-radius: 0;
+    width: 85%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+    height: 30px;
+    background-color: #3B3B3B;
+    border:2.5px solid #ADD9D2;
+    color:#FFFF;
+}
+
+#submitb{
+    width:15%;
+    display: inline-block;
+    height:60px;
+    background-color: #ADD9D2;
+    
+}
+
