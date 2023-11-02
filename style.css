@@ -125,7 +125,7 @@ a{
 }
 
 
-#submitb{
+.submitb{
     width:25px;
     display: inline;
     position: relative;
@@ -136,11 +136,14 @@ a{
     border-radius: 5px;
     bottom: 0px;
     cursor: pointer;
+    float:bottom;
+    float:right;
+    margin-right:5px;
+    margin-top: 40px;
 }
-#submitb:hover{
+.submitb:hover{
     background-color: #E68B5A;
-    border-radius: 10px;
-    bottom: 10px;
+    bottom: 5px;
 }
 
 
