@@ -6,9 +6,9 @@
   <!-- <script language="JavaScript" type="text/javascript" src="/js/jquery-1.2.6.min.js"></script>
   <script language="JavaScript" type="text/javascript" src="/js/jquery-ui-personalized-1.5.2.packed.js"></script>
   <script language="JavaScript" type="text/javascript" src="/js/sprinkle.js"></script> -->
-  <title>inventory organizatino</title>
+  <title>inventory organization</title>
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="lib/jquery-3.6.0.js"></script>
+  
   <meta charset="UTF-8">
   <body onload="" style="margin:0;"></body>
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,38 +17,62 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;800&display=swap" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
   
 </head>
 <body>
   <h1 class="titling">Noah's I.M.S</h1>
-  <div class="listing">
+  <div id="listing" class="glass-bg">
     <div id="manage">
       <h2>Management</h2>
+
       <div style="display: table-row;">
+
       <div id="specs">
+      
       <a class="totali">Total Items: </a><a class="totali" id="totalnum">1</a><br>
       <a class="stock">In-Stock: </a><a class="stock" id="stocknum">1</a> <br>
       <a class="mosts">In-Stock: </a><a class="stock" id="mostv">test</a>
     </div>
-    <div id="newint">
-      <button class="submitb">
-        <a style="color:black;">-</a>
-      </button>
-      <button class="submitb">
-        <a style="color:black;">+</a>
-      </button>
+
 
     </div>
+
     </div>
-    </div>
-    <ul class="items">
-      <li>test</li>
-      <li>test 2</li>
-      <li>test 3</li>
+
+
+    <ul class="items" id="items">
+
+      <li class="glass-bg repeated" contenteditable="true">test</li>
+      <li class="glass-bg repeated" contenteditable="true">test 2</li>
+      <li class="glass-bg repeated" contenteditable="true">test 3</li>
+      <li class="glass-bg repeated" contenteditable="true">asdf</li>
+      <li class="glass-bg repeated" contenteditable="true">test</li>
+      <li class="glass-bg repeated" contenteditable="true">test 2</li>
+      <li class="glass-bg repeated" contenteditable="true">test 3</li>
+      <li class="glass-bg repeated" contenteditable="true">asdf</li>
+      <li class="glass-bg repeated" contenteditable="true">test</li>
+      <li class="glass-bg repeated" contenteditable="true">test 2</li>
+      <li class="glass-bg repeated" contenteditable="true">test 3</li>
+      <li class="glass-bg repeated" contenteditable="true">asdf</li>
     </ul>
+    <div class="bottomrow glass-bg" id="bottomrow">
+      <div id="newint">
+        <button class="submitb" id="sticky_for_a_while">
+          <a style="color:black;">-</a>
+        </button>
+        <button class="submitb">
+          <a style="color:black;">+</a>
+        </button>
+    
+      </div>
+    </div>
   </div>
+
+
 </body>
 <script src="code.js"></script>
+
 
 
 </html>
